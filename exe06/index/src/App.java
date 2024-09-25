@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner teclado = new Scanner(System.in);
         
-        System.out.println("Digite o horário desejado (HH:MM:SS): ");
+        System.out.print("Digite o horário desejado (HH:MM:SS): ");
         String horarioEntrada = teclado.nextLine();
         
         // Dividir a string com base nos ":" para obter horas, minutos e segundos
